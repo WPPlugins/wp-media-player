@@ -1,0 +1,570 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-media-player 0.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-media-player\n"
+"POT-Creation-Date: 2009-09-26 16:04+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ruslan Yakushev <ruslany@hotmail.com>\n"
+"Language-Team: Ruslan Yakushev <ruslany@hotmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: classes/upload.class.php:214
+#: uploader.php:177
+msgid "File"
+msgstr "Файл"
+
+#: classes/upload.class.php:214
+msgid "successfully uploaded!"
+msgstr "Успешно загружен!"
+
+#: classes/upload.class.php:215
+msgid "The uploaded file exceeds the max. upload filesize directive in the server configuration."
+msgstr "Загружаемый файл превышает максимальный размер, разрешенный сервером."
+
+#: classes/upload.class.php:216
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the html form."
+msgstr "Загружаемый файл превышает MAX_FILE_SIZE директиву, указанную в html форме."
+
+#: classes/upload.class.php:217
+msgid "The uploaded file was only partially uploaded"
+msgstr "Загружаемый файл был загружен неполностью"
+
+#: classes/upload.class.php:218
+msgid "No file was uploaded"
+msgstr "Файл не загрузился"
+
+#: classes/upload.class.php:220
+msgid "Please select a file for upload."
+msgstr "Выберите файл для загрузки."
+
+#: classes/upload.class.php:221
+msgid "Only files with the following extensions are allowed:"
+msgstr "Можно загружать только файлы со следуюшими расширениями:"
+
+#: classes/upload.class.php:222
+msgid "Sorry, the filename contains invalid characters. Use only alphanumerical chars and separate parts of the name (if needed) with an underscore. A valid filename ends with one dot followed by the extension."
+msgstr "Имя файла содержить неразрешенные символы. Используйте только буквы и цифры и разделяйте части имени подчерком. Правильное имя файла заканчивается точкой, за которой следует расширение."
+
+#: classes/upload.class.php:223
+msgid "The filename exceeds the maximum length of "
+msgstr "Имя файла превышает масксимальную длину "
+
+#: classes/upload.class.php:223
+msgid "characters."
+msgstr "символов."
+
+#: classes/upload.class.php:224
+msgid "Sorry, the upload directory doesn't exist!"
+msgstr "Нету директории для загрузки!"
+
+#: classes/upload.class.php:225
+msgid "Uploading"
+msgstr "Загружаем"
+
+#: classes/upload.class.php:225
+msgid "Sorry, a file with this name already exists."
+msgstr "Файл с таким именем уже существует."
+
+#: classes/upload.class.php:226
+msgid "The uploaded file is renamed to"
+msgstr "Загружаемый файл переименован в"
+
+#: classes/upload.class.php:227
+#, php-format
+msgid "The file %s does not exist."
+msgstr "Файл %s не существует."
+
+#: classes/utils.class.php:37
+msgid "B"
+msgstr "Б"
+
+#: classes/utils.class.php:37
+msgid "kB"
+msgstr "кБ"
+
+#: classes/utils.class.php:37
+msgid "MB"
+msgstr "мБ"
+
+#: classes/utils.class.php:37
+msgid "GB"
+msgstr "гБ"
+
+#: player-about.php:18
+#: player-settings.php:18
+#: player-stats.php:19
+msgid "Cheatin&#8217; uh?"
+msgstr "Хитрите, да?"
+
+#: player-about.php:20
+#: player-settings.php:20
+#: player-stats.php:21
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас нет доступа к этой странице"
+
+#: player-about.php:24
+#: wp-media-player.php:608
+msgid "About WP Media Player Plugin"
+msgstr "О WP Медиа Проигрывателе"
+
+#: player-about.php:25
+msgid "To add a player to a blog post or a page, follow these steps:"
+msgstr "Чтобы добавить проигрыватель в запись:"
+
+#: player-about.php:26
+msgid "<strong>Step 1</strong>: Encode the video to a Windows Media Video (WMV) format by using <a href=\"http://www.microsoft.com/Expression/try-it/default.aspx\">Microsoft Expression Encoder</a> or <a href=\"http://www.microsoft.com/windows/windowsmedia/forpros/encoder/default.mspx\">Windows Media Encoder</a>. If you use Windows Media Encoder then follow <a href=\"http://ruslany.net/wp-media-player/video-encoding//\" target=\"_blank\">these instructions</a> to properly encode the video content for Silverlight."
+msgstr "<strong>Шаг 1</strong>: Закодируйте видео в Windows Media Video (WMV) формате с использованием <a href=\"http://www.microsoft.com/Expression/try-it/default.aspx\">Microsoft Expression Encoder</a> или <a href=\"http://www.microsoft.com/windows/windowsmedia/forpros/encoder/default.mspx\">Windows Media Encoder</a>. Если вы используете Windows Media Encoder, то следуйте <a href=\"http://ruslany.net/wp-media-player/video-encoding/\" target=\"_blank\">этим инструкциям</a>, чтобы правильно закодировать видео для Silverlight."
+
+#: player-about.php:27
+msgid "<strong>Step 2</strong>: Upload the video to WordPress either via FTP or by clicking on “Silverlight Video” in the post editing page. When uploading the video, take a note of the absolute URL path where the video file has been placed to."
+msgstr "<strong>Шаг 2</strong>: Загрузите видео файл в WordPress с помощью FTP или с помощью “Silverlight Видео” кнопки на странице редактирования записи. При загрузке видео запомните адрес по которому был сохранен видео файл."
+
+#: player-about.php:28
+msgid "<strong>Step 3</strong>: Place the following tag inside of the blog post content where you want the video player to appear:"
+msgstr "<strong>Шаг 3</strong>: Добавьте следуюший таг в то место внутни записи или страницы, где вы хотите поместить проигрыватель:"
+
+#: player-about.php:32
+msgid "Usage examples"
+msgstr "Примеры использования"
+
+#: player-about.php:33
+msgid "To use a custom placeholder image instead of the default one use the \"thumb\" parameter, e.g.:"
+msgstr "Используйте \"thumb\" параметр, чтобы изменить картинку в проигрывателе:"
+
+#: player-about.php:37
+msgid "To specify player’s width and height, use the \"width\" and \"height\" parameters, e.g.:"
+msgstr "Используйте параметры \"width\" и \"height\", чтобы изменить ширину и высоту проигрывателя:"
+
+#: player-about.php:41
+msgid "To change auto load and auto play settings use \"autoLoad\" and \"autoPlay\" parameters, e.g.:"
+msgstr "Используйте параметры \"autoLoad\" и \"autoPlay\", чтобы изменить авто-загрузку и авто-старт:"
+
+#: player-about.php:45
+msgid "To mute the audio, use the \"muted\" parameter, e.g.:"
+msgstr "Используйте параметр \"muted\", чтобы выключить звук:"
+
+#: player-settings.php:24
+#: wp-media-player.php:607
+msgid "WP Media Player Settings"
+msgstr "Настройки WP Медиа Проигрывателя"
+
+#: player-settings.php:27
+msgid "Default Settings"
+msgstr "Настройки по умолчанию"
+
+#: player-settings.php:28
+msgid "These setting for media player will be used by default unless overwritten by corresponding settings for each individual player instance."
+msgstr "Эти настройки для проигрывателя будут использованы по умолчанию, если соответсвующие настройки не указаны в самом проигрывателе."
+
+#: player-settings.php:31
+msgid "Load and Play Options"
+msgstr "Настройки загрузки и проигрывания"
+
+#: player-settings.php:35
+#: uploader.php:293
+msgid "Cue Video on Page Load"
+msgstr "Загружать видео при загрузке страницы"
+
+#: player-settings.php:40
+#: uploader.php:298
+msgid "Automatically Start Video when Cued"
+msgstr "Играть видео сразу при загрузке"
+
+#: player-settings.php:45
+#: uploader.php:303
+msgid "Mute the Audio"
+msgstr "Выключить звук"
+
+#: player-settings.php:48
+msgid "(These settings may be overridden for individual players)"
+msgstr "(Эти параметны могут быть изменены в индивидуальных проигрывателях)"
+
+#: player-settings.php:53
+msgid "Player Size"
+msgstr "Размер проигрывателя"
+
+#: player-settings.php:55
+msgid "Width"
+msgstr "Ширина"
+
+#: player-settings.php:57
+msgid "Height"
+msgstr "Высота"
+
+#: player-settings.php:63
+msgid "Thumbnail path (optional)"
+msgstr "Путь к картинке (можно не указывать)"
+
+#: player-settings.php:68
+msgid "(If left empty then default thumbnail will be used)"
+msgstr "(Если не указан, то будет использоваться катринка по умолчанию)"
+
+#: player-settings.php:72
+msgid "Player styles"
+msgstr "Стили проигрывателя"
+
+#: player-settings.php:73
+msgid "Select how the media player will look like."
+msgstr "Выберите, как будет выглядить проигрыватель."
+
+#: player-settings.php:76
+msgid "Style"
+msgstr "Стиль"
+
+#: player-settings.php:82
+msgid "Watermark Image"
+msgstr "Водяной знак"
+
+#: player-settings.php:83
+msgid "The watermak can be used to display the logo image on every video that is played by the player."
+msgstr "Водяной знак используется для показа логотипа на каждом видео в проигрывателе."
+
+#: player-settings.php:87
+msgid "Image Path <br/> (JPG, PNG only)"
+msgstr "Адрес файла с картинкой <br/>(только JPG и PNG)"
+
+#: player-settings.php:92
+msgid "(For example: http://myblog.com/wp-content/uploads/logo.png)"
+msgstr "(например: http://myblog.com/wp-content/uploads/logo.png)"
+
+#: player-settings.php:96
+msgid "Position"
+msgstr "Расположение"
+
+#: player-settings.php:102
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: player-settings.php:108
+msgid "Displaying Player on Home Page"
+msgstr "Показывать проигрыватель на главной странице"
+
+#: player-settings.php:109
+msgid "By default players in the blog posts are not displayed on a home page of the blog. Instead links to the players are displayed. This way blog visitors will not be reqired to download media player scripts if they do not want to see the video. Also, this prevents the possibility of multiple players in different blog posts from starting playing at the same time. You can change this behavior by using the option below."
+msgstr "По умолчанию проигрыватели в записях не показываются на главной странице. Вместо них показываются ссылки на конкретные записи с проигрывателями. Это делается для того, чтобы посетилели, которые не хотят смотреть видео, не были вынуждены скачивать файлы проигрывателя. Также, это предотвращает возможность проигрывания нескольких видео одновременно. Вы можете изменить это с помощью настройки ниже."
+
+#: player-settings.php:115
+msgid "Show Player on Home Page"
+msgstr "Показывать проигрыватель на главной странице"
+
+#: player-settings.php:123
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: player-stats.php:52
+#: player-stats.php:121
+#: player-stats.php:224
+msgid "Post ID"
+msgstr "Номер"
+
+#: player-stats.php:56
+#: player-stats.php:122
+#: player-stats.php:225
+msgid "Post Title"
+msgstr "Запись"
+
+#: player-stats.php:60
+#: player-stats.php:226
+msgid "Video File"
+msgstr "URL видео файла"
+
+#: player-stats.php:64
+#: player-stats.php:124
+#: player-stats.php:227
+msgid "Started"
+msgstr "Начали"
+
+#: player-stats.php:69
+#: player-stats.php:125
+#: player-stats.php:228
+msgid "Finished"
+msgstr "Закончили"
+
+#: player-stats.php:76
+#: player-stats.php:232
+msgid "Ascending"
+msgstr "возрастанию"
+
+#: player-stats.php:81
+#: player-stats.php:233
+msgid "Descending"
+msgstr "убыванию"
+
+#: player-stats.php:115
+#: wp-media-player.php:606
+msgid "WP Media Player Statistics"
+msgstr "Статистика проигрываний видео"
+
+#: player-stats.php:116
+#, php-format
+msgid "Displaying records <strong>%s</strong> to <strong>%s</strong> of total <strong>%s</strong> records."
+msgstr "Показ записей с <strong>%s</strong> по <strong>%s</strong> из всех <strong>%s</strong> записей."
+
+#: player-stats.php:117
+#, php-format
+msgid "Sorted by <strong>%s</strong> in <strong>%s</strong> order."
+msgstr "Отсортировано по <strong>%s</strong> по <strong>%s</strong>."
+
+#: player-stats.php:123
+msgid "Video File Path or URL"
+msgstr "URL видео файла"
+
+#: player-stats.php:126
+msgid "Reset"
+msgstr "Сброс"
+
+#: player-stats.php:152
+msgid "No Statistics Found"
+msgstr "Пока нет данных"
+
+#: player-stats.php:167
+msgid "Previous Page"
+msgstr "Предыдущий"
+
+#: player-stats.php:176
+msgid "Next Page"
+msgstr "Следующий"
+
+#: player-stats.php:185
+#, php-format
+msgid "Pages (%s): "
+msgstr "Страницы (%s):"
+
+#: player-stats.php:188
+msgid "Go to First Page"
+msgstr "На первую страницу"
+
+#: player-stats.php:188
+msgid "First"
+msgstr "Первая"
+
+#: player-stats.php:191
+#: player-stats.php:203
+msgid "Go to Page"
+msgstr "На страницу"
+
+#: player-stats.php:198
+msgid "Page"
+msgstr "Страница"
+
+#: player-stats.php:206
+msgid "Go to Last Page"
+msgstr "На последнюю страницу"
+
+#: player-stats.php:206
+msgid "Last"
+msgstr "Последняя"
+
+#: player-stats.php:221
+msgid "Sort Options:"
+msgstr "Сортировка по:"
+
+#: player-stats.php:240
+#: player-stats.php:242
+msgid "Per Page"
+msgstr "Записей на страницу"
+
+#: player-stats.php:250
+msgid "Go"
+msgstr "Обновить"
+
+#: uploader.php:19
+msgid "Blue"
+msgstr "Синий"
+
+#: uploader.php:20
+msgid "Gray"
+msgstr "Серый"
+
+#: uploader.php:28
+msgid "You do not have permission to upload files."
+msgstr "У вас нет доступа для загрузки файлов."
+
+#: uploader.php:54
+msgid "Uploads"
+msgstr "Загрузка"
+
+#: uploader.php:54
+msgid "WordPress"
+msgstr "WordPress"
+
+#: uploader.php:76
+msgid "Choose Video"
+msgstr "Выберите видео"
+
+#: uploader.php:77
+#: uploader.php:173
+msgid "Video Library"
+msgstr "Видео библиотека"
+
+#: uploader.php:123
+msgid "<div id=\"media-upload-error\">No file selected</div>"
+msgstr "<div id=\"media-upload-error\">Файл не выбран</div>"
+
+#: uploader.php:133
+msgid "Choose video source"
+msgstr "Выберите видео файл"
+
+#: uploader.php:136
+msgid "Y-m-d H:i:s"
+msgstr "Y-m-d H:i:s"
+
+#: uploader.php:145
+msgid "Upload Video File"
+msgstr "Загрузка видео файла"
+
+#: uploader.php:149
+msgid "Max. filesize = "
+msgstr "Макс. размер файла = "
+
+#: uploader.php:151
+msgid "&mdash; OR &mdash;"
+msgstr "&mdash; ИЛИ &mdash;"
+
+#: uploader.php:155
+msgid "Video File URL"
+msgstr "URL видео файла"
+
+#: uploader.php:159
+msgid "e.g. http://www.someserver.com/videos/somevideo.wmv "
+msgstr "например:  http://www.someserver.com/videos/somevideo.wmv "
+
+#: uploader.php:161
+msgid "Add Video File"
+msgstr "Добавить видео файл"
+
+#: uploader.php:178
+msgid "Size"
+msgstr "Размер"
+
+#: uploader.php:179
+msgid "Action"
+msgstr "Операция"
+
+#: uploader.php:240
+msgid "Insert"
+msgstr "Вставить"
+
+#: uploader.php:253
+#: uploader.php:255
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: uploader.php:266
+#: uploader.php:268
+msgid "Next"
+msgstr "Следующий"
+
+#: uploader.php:282
+msgid "Insert media player into post"
+msgstr "Вставить проигрыватель в запись"
+
+#: uploader.php:283
+msgid "Video Source URL: "
+msgstr "URL видео файла:"
+
+#: uploader.php:287
+msgid "Load and Play <br />options"
+msgstr "Настройки загрузки <br/>и проигрывания"
+
+#: uploader.php:311
+msgid "Player Width"
+msgstr "Ширина проигрывателя"
+
+#: uploader.php:317
+msgid "Player Height"
+msgstr "Высота проигрывателя"
+
+#: uploader.php:323
+msgid "Thumbnail Path (optional)"
+msgstr "Размер картинки (можно не указывать)"
+
+#: uploader.php:329
+msgid "Insert into Post"
+msgstr "Вставить в запись"
+
+#: wp-media-player.php:108
+msgid "Top and Left"
+msgstr "Вверху и слева"
+
+#: wp-media-player.php:109
+msgid "Top and Right"
+msgstr "Вверху и справа"
+
+#: wp-media-player.php:110
+msgid "Bottom and Left"
+msgstr "Внизу и слева"
+
+#: wp-media-player.php:111
+msgid "Bottom and Right"
+msgstr "Внизу и справа"
+
+#: wp-media-player.php:112
+msgid "20%"
+msgstr "20%"
+
+#: wp-media-player.php:113
+msgid "40%"
+msgstr "40%"
+
+#: wp-media-player.php:114
+msgid "60%"
+msgstr "60%"
+
+#: wp-media-player.php:115
+msgid "80%"
+msgstr "80%"
+
+#: wp-media-player.php:116
+msgid "100%"
+msgstr "100%"
+
+#: wp-media-player.php:486
+msgid "Play Video"
+msgstr "Играть видео"
+
+#: wp-media-player.php:603
+msgid "Media Player"
+msgstr "Медиа Проигрыватель"
+
+#: wp-media-player.php:606
+msgid "Statistics"
+msgstr "Статистика"
+
+#: wp-media-player.php:607
+msgid "Settings"
+msgstr "Настройки"
+
+#: wp-media-player.php:608
+msgid "About"
+msgstr "Информация"
+
+#: wp-media-player.php:622
+msgid "Silverlight Video"
+msgstr "Silverlight Видео"
+
+#. Plugin Name of an extension
+msgid "WP Media Player"
+msgstr "WP Проигрыватель"
+
+#. Plugin URI of an extension
+msgid "http://ruslany.net/wp-media-player/"
+msgstr "http://ruslany.net/wp-media-player/"
+
+#. Description of an extension
+msgid "A Silverlight-based media player."
+msgstr "Silverlight видео проигрыватель."
+
+#. Author of an extension
+msgid "Ruslan Yakushev"
+msgstr "Руслан Якушев"
+
+#. Author URI of an extension
+msgid "http://ruslany.net"
+msgstr "http://ruslany.net"
+
